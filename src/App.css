@@ -1,0 +1,85 @@
+
+*{
+  
+  font-family: 'Montserrat'!important;
+  font-size: 17px;
+}
+
+a {
+  font-weight: 500;
+  color: #dddddd;
+  text-decoration: inherit;
+}
+a:hover {
+  /* color:rgb(255, 58, 222); */
+  color:rgb(9, 120, 167);
+  
+}
+
+body{
+  background: rgb(36, 36, 36);
+  display: flex;
+  justify-content: center;
+}
+
+
+section .MuiAccordionDetails-root {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.acordion-data{
+  padding: 7px;
+  display: flex;
+  gap: 15px;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root, .css-bz4dnt-MuiCollapse-root {
+  background-color: rgb(27, 27, 27) !important; 
+  box-shadow: none !important;
+  /* box-shadow: 50px 0 0 0 red !important; */
+}
+
+
+.css-15v22id-MuiAccordionDetails-root {
+  padding: 8px 16px 16px;
+  background-color: rgb(27, 27, 27) !important; 
+  /* border: 1px solid #686868; */
+  border: 1px solid rgb(9, 120, 167);
+  border-radius: 5px !important;
+}
+
+img{
+  object-fit: contain;
+  background-color: aliceblue;
+}
+
+.acordionClicked{
+  color:rgb(255, 58, 222);
+  font-weight: bolder !important;
+}
+.acordionNoClicked:hover{
+  color:rgb(255, 58, 222);
+}
+.acordionNoClicked{
+  color:rgb(206, 206, 206);
+  font-weight: lighter !important;
+}
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
+   background-color: rgb(27, 27, 27) !important; 
+   border-radius: 1rem !important;
+}
+
+.box-shadow{
+  /* -webkit-box-shadow: 30px 23px 43px 3px rgba(196,196,196,1);
+-moz-box-shadow: 30px 23px 43px 3px rgba(196,196,196,1); */
+box-shadow: 30px 30px 100px -90px rgba(196,196,196,1);
+}
+
+
+@media only screen and (max-width: 600px) {
+  .paper{
+    width: 300px;
+  }
+}
