@@ -1,0 +1,76 @@
+
+*{
+  font-family: 'Poppins'!important;
+  font-size: 17px;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  font-weight: 500;
+  color: #dddddd;
+  text-decoration: inherit;
+}
+a:hover {
+  color:rgb(9, 120, 167);
+}
+
+body{
+  background: rgb(36, 36, 36);
+  display: flex;
+  justify-content: center;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded {
+  margin: 0 !important;
+}
+
+section .MuiAccordionDetails-root {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.acordion-data{
+  padding: 7px;
+  display: flex;
+  gap: 15px;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root, .css-bz4dnt-MuiCollapse-root {
+  box-shadow: none !important;
+}
+
+.css-15v22id-MuiAccordionDetails-root {
+  padding: 8px 16px 16px;
+  border-radius: 5px !important;
+}
+
+img{
+  object-fit: contain;
+  background-color: aliceblue;
+}
+
+.acordionClicked{
+  color:rgb(255, 58, 222);
+  font-weight: bolder !important;
+}
+.acordionNoClicked:hover{
+  color:rgb(255, 58, 222) !important;
+}
+.acordionNoClicked{
+  color:rgb(206, 206, 206);
+  font-weight: lighter !important;
+}
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
+   border-radius: 1rem !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .paper{
+    width: 300px;
+  }
+}
